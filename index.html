@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linux Terminal</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="terminal">
+    <div class="terminal-header">
+      <div class="buttons">
+        <span class="button close"></span>
+        <span class="button minimize"></span>
+        <span class="button maximize"></span>
+      </div>
+      <div class="title">user@ctf-tools: ~</div>
+    </div>
+    <div class="terminal-body" id="terminal-body">
+      <div class="output">Welcome to CTF Tools Terminal. Type 'help' for a list of commands.</div>
+      <div class="input-line">
+        <span class="prompt">user@ctf-tools:~$</span>
+        <input type="text" id="command-input" autofocus>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
